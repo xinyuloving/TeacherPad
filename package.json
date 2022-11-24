@@ -1,0 +1,78 @@
+{
+  "name": "teacher-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "serve:pre": "vue-cli-service serve --mode preannouncement",
+    "serve:nx": "vue-cli-service serve --mode ningxia",
+    "build:pre": "vue-cli-service build --mode preannouncement",
+    "build:prepad": "vue-cli-service build --mode pre_pad",
+    "build:dev": "vue-cli-service build --mode development",
+    "build:devpad": "vue-cli-service build --mode dev_pad",
+    "build:nx": "vue-cli-service build --mode ningxia",
+    "build:nxpad": "vue-cli-service build --mode ningxia_pad",
+    "serve:test": "vue-cli-service serve --mode test",
+    "build:test": "vue-cli-service build --mode test",
+    "build:testpad": "vue-cli-service build --mode test_pad",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "cos-js-sdk-v5": "^1.3.4",
+    "echarts": "^5.1.2",
+    "element-ui": "^2.4.5",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "pinyin-pro": "^3.3.1",
+    "svg-sprite-loader": "^6.0.11",
+    "tim-js-sdk": "^2.15.0",
+    "tim-upload-plugin": "^1.0.3",
+    "uuid": "^8.3.2",
+    "vconsole": "^3.14.5",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vue2-touch-events": "^3.2.2",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "compression-webpack-plugin": "^1.1.12",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "filemanager-webpack-plugin": "^6.1.7",
+    "less": "^3.13.1",
+    "less-loader": "^5.0.0",
+    "terser-webpack-plugin": "^1.4.5",
+    "vue-cli-plugin-element": "~1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

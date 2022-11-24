@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2752053 */
+  src: url('iconfont.woff2?t=1644897271560') format('woff2'),
+       url('iconfont.woff?t=1644897271560') format('woff'),
+       url('iconfont.ttf?t=1644897271560') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon1:before {
+  content: "\e641";
+}
+
+.icon-wenjianjia1:before {
+  content: "\e640";
+}
+
+.icon-kejian:before {
+  content: "\e60f";
+}
+
+.icon-shijuanguanli:before {
+  content: "\e630";
+}
+
+.icon-wenjianjia:before {
+  content: "\e65f";
+}
+
+.icon-del:before {
+  content: "\e60e";
+}
+
+.icon-upload:before {
+  content: "\e60d";
+}
+
+.icon-new_test:before {
+  content: "\e60c";
+}
+
+.icon-new_folder:before {
+  content: "\e60b";
+}
+
+.icon-add_to_my:before {
+  content: "\e607";
+}
+
+.icon-malfunction:before {
+  content: "\e604";
+}
+
+.icon-normal:before {
+  content: "\e603";
+}
+
+.icon-quanping:before {
+  content: "\e824";
+}
+
+.icon-suoxiao:before {
+  content: "\e825";
+}
+
+.icon-arrow-left:before {
+  content: "\e63b";
+}
+
+.icon-arrow-down:before {
+  content: "\e63c";
+}
+
+.icon-arrow1:before {
+  content: "\e63e";
+}
+
+.icon-arrow-up:before {
+  content: "\e63f";
+}
+
+.icon-arrow:before {
+  content: "\e645";
+}
+
+.icon-zengjia:before {
+  content: "\e889";
+}
+
+.icon-shezhi-xianxing:before {
+  content: "\e8b7";
+}
+
+.icon-loading:before {
+  content: "\e66d";
+}
+
+.icon-account:before {
+  content: "\e655";
+}
+
+.icon-eye-slash:before {
+  content: "\e7ec";
+}
+
+.icon-eye:before {
+  content: "\e7ed";
+}
+
+.icon-error:before {
+  content: "\e668";
+}
+
+.icon-success1:before {
+  content: "\e67e";
+}
+
+.icon-warning:before {
+  content: "\e681";
+}
+
+.icon-gongxiang:before {
+  content: "\e664";
+}
+
+.icon-xiazai:before {
+  content: "\e606";
+}
+
+.icon-24gl-folderOpen:before {
+  content: "\eabe";
+}
+
+.icon-shanchu:before {
+  content: "\e8b6";
+}
+
+.icon-modify:before {
+  content: "\e713";
+}
+
+.icon-logout:before {
+  content: "\e605";
+}
+
+.icon-ico-down-arrow:before {
+  content: "\e66e";
+}
+
+.icon-cuo:before {
+  content: "\e63d";
+}
+
+.icon-duihao1:before {
+  content: "\e602";
+}
+
+.icon-iconfontcheck:before {
+  content: "\e61b";
+}
+
+.icon-right1:before {
+  content: "\e60a";
+}
+
+.icon-left1:before {
+  content: "\e609";
+}
+
+.icon-close:before {
+  content: "\e61c";
+}
+
+.icon-right:before {
+  content: "\e649";
+}
+
+.icon-left:before {
+  content: "\e62d";
+}
+
