@@ -139,7 +139,7 @@ module.exports = {
         config
             .plugin('html')
             .tap(args => {
-                args[0].title = '水獭教师端'
+                args[0].title = '汇友鹿教师端'
                 return args
             })
 

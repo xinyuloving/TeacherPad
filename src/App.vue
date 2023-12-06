@@ -18,8 +18,8 @@ export default {
   async created() {
     try {
       this.initListener(); // 初始化监听器
-      const { data } = await loginPhenix(); // 登录埋点系统
-      window.localStorage.setItem("Phenix-Token", data);
+      // const { data } = await loginPhenix(); // 登录埋点系统
+      // window.localStorage.setItem("Phenix-Token", data);
     } catch (err) {
       console.log(err);
     }

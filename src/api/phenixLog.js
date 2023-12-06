@@ -1,6 +1,7 @@
 import request from '@/utils/request'
 // const baseURL = 'http://121.40.127.159:11004/api'
-const baseURL = process.env.NODE_ENV === 'development' ? 'http://dev-api-log.phenix.otter-nxedu.com/api' : process.env.NODE_ENV === 'testing' ? "http://test-api-log.phenix.otter-nxedu.com/api" : "https://api-log.phenix.otter-nxedu.com/api"
+const baseURL = 'http://www.hyldesk.com/api'
+// const baseURL = process.env.NODE_ENV === 'development' ? 'http://dev-api-log.phenix.hyldesk.com/api' : process.env.NODE_ENV === 'testing' ? "http://test-api-log.phenix.hyldesk.com/api" : "https://api-log.phenix.hyldesk.com/api"
 
 // 登录埋点系统
 function loginPhenix() {
@@ -58,8 +59,9 @@ function uploadLogEventList(data) {
 }
 
 export {
-    loginPhenix,
-    logoutPhenix,
-    uploadLogEvent,
-    uploadLogEventList
+    // 如果需要上传log，需要启用以下方法
+    // loginPhenix,
+    // logoutPhenix,
+    // uploadLogEvent,
+    // uploadLogEventList
 }

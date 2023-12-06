@@ -2,11 +2,10 @@
     <div class="login">
         <header>
             <img src="@/assets/img/login/login-logo.png" alt="" />
-            <!-- <span>水獭智创</span> -->
         </header>
         <section>
             <div class="left">
-                <span>引领教育，打造数字化校园</span>
+                <span>数字化赋能，引领智慧学校建设</span>
             </div>
             <div class="right">
                 <div
@@ -112,7 +111,7 @@
                 </div>
             </div>
             <a href="https://beian.miit.gov.cn" class="put-on-records"
-                >浙ICP备2022005167号</a
+                >浙ICP备2023018830号</a
             >
         </section>
         <Vcode
@@ -474,10 +473,10 @@ export default {
             background-repeat: no-repeat;
             display: flex;
             span {
-                margin: 2.16rem 0 0 0.85rem;
+                margin: 1.2rem 0 0 0.85rem;
                 font-size: 0.35rem;
                 font-weight: bold;
-                color: #424242;
+                color: #0b214e;
             }
         }
         .right {
@@ -623,7 +622,7 @@ export default {
         }
         .put-on-records {
             position: absolute;
-            bottom: 0.6rem;
+            bottom: 0.4rem;
             font-size: 14px;
             color: #73777a;
             width: 100%;

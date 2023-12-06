@@ -7,7 +7,6 @@
             src="../../../assets/img/home/homeTools/PrepareLessons/logo.png"
             alt=""
           />
-          <span>水獭教育</span>
         </div> -->
                 <ul class="list-group">
                     <li

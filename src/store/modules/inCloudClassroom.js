@@ -97,7 +97,7 @@ const mutations = {
     updateSeatingPlan(state, data) {
         // 更新座位图
         const seat = state.deviceList.find(item => item.sn === data.sn);
-        const x = state.seatingPlan.length - seat.rowNumber;
+        const x = state.seatingPlan.length - seat.rowsNumber;
         let obj = state.seatingPlan[x][seat.columnNumber - 1];
         obj.type = data.type;
         obj.active = data.active ? data.active : obj.active;
@@ -221,7 +221,7 @@ const mutations = {
     },
     updateActive(state, data) {
         const seat = state.deviceList.find(item => item.sn === data.sn);
-        const x = state.seatingPlan.length - seat.rowNumber;
+        const x = state.seatingPlan.length - seat.rowsNumber;
         state.seatingPlan[x][seat.columnNumber - 1].active = data.active
     },
     studentQuestion(state, data) {
@@ -344,7 +344,7 @@ const actions = {
             } else {
                 // 如果学生已存在则获取设备坐标
                 const seat = state.deviceList.find(i => i.sn === state.studentList[index].sn);
-                const x = state.seatingPlan.length - seat.rowNumber;
+                const x = state.seatingPlan.length - seat.rowsNumber;
                 // 根据坐标设置座位图的显示类型
                 state.seatingPlan[x][seat.columnNumber - 1].type = 1;
                 state.seatingPlan[x][seat.columnNumber - 1].active = 0;

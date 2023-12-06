@@ -178,7 +178,7 @@ export default {
           value: {
             name: classroom[0].name,
             subjectName: subject[0].subjectName,
-            row: classroom[0].rowNumber,
+            row: classroom[0].rowsNumber,
             column: classroom[0].columnNumber,
             subjectCode: subject[0].code,
           },
@@ -242,12 +242,12 @@ export default {
           this.sendToDevice({ groupID, deviceList: res.data || [] });
           this.createSeatingPlan({
             column: classroom.columnNumber,
-            row: classroom.rowNumber,
+            row: classroom.rowsNumber,
           });
           this.$emit("begin", {
             subjectName: this.subjectName || subject.subjectName,
             className: classroom.name,
-            row: classroom.rowNumber,
+            row: classroom.rowsNumber,
             column: classroom.columnNumber,
             type: false,
             groupID,
